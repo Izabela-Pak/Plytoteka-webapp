@@ -1,3 +1,7 @@
+Z zewnętrznych platform korzystano z bezpłatnej wersji, która przez określony czas nieużywania zatrzymuje się powodując problemy z dodaniem płyty, gdy jest załączane do niej zdjęcie.
+
+---
+
 W celu poprawnego działania aplikacji należy dodać w folderze \backend\src\main nowy folder 'resources' w którym należy umieścić plik 'application.properties' zawierający wszystkie dane konfiguracyjne.
 
 Dodatkowo w miejscu pliku docker-compose.yml należy utworzyć plik '.env' w którym zostaną zawarte wszystkie zmienne wrażliwe, kluczowe do działania projektu.
