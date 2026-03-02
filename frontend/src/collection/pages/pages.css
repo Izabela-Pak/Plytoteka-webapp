@@ -1,0 +1,44 @@
+.header-collection {
+    background-image: linear-gradient(to right, #ED803E , #DA8366,  #EC8C5B);
+}
+
+.main-list {
+    background-color: #F1AA79;
+    /*background-image: linear-gradient(to top, #F29C50, #F26938, #F26938);
+    #FCBF81; */
+}
+
+.left-sidebar {
+    background-color: #ED9F74;
+}
+
+.text-logo{
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+
+.card-background-color{
+    background-color: #EF8E49;
+    /*#F2A97E; */
+}
+
+.link-to-create-cd:hover,
+.icon-to-logout:hover {
+    color: #572700ff;
+}
+
+.link-to-create-cd,
+.icon-to-logout{
+    color:white;
+}
+
+/* Common height */
+.uniform-h {
+  height: 2.7rem;
+}
+
+/* for a bigger screens */
+@media (min-width: 768px) {
+  .uniform-h {
+    height: 3.0rem;
+  }
+}
